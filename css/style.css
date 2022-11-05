@@ -212,7 +212,76 @@
   }
   /* aqui todo estilo da Metrica*/
 
+  .metricas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:1440px;
+    height: 288px;
+    background: #ffffff;
+    padding: 0px 0px 0px 96px;
+    gap: 64px;
+    margin: 0px 250px 0px 250px;
+  }
+
+  .metricas__container-card{
+    width: 1216px;
+    height: 192px;
+    left: 32px;
+    gap: 32px;
+    display: flex;
+    flex-direction: row;
+    
+  }
+
+  .metricas__container-item{
+    display: flex;
+    flex-direction:column;
+    align-items:flex-start;
+    padding: 0px;
+    gap: 20px;
+
+    width: 280px;
+    height: 168px;
+
+  }
+  .metricas-titulo{
+
+    font-family: 'Inter';
+    font-weight: 600px;
+    font-size: 60px;
+    line-height: 72px;
+    letter-spacing: 0.02em;
+    color: #8E2424;
+    width: 280px;
+    height: 72px;
+
+  }
+
+  .metrica-subtitulo{
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    color:#101828;
+    width: 280px;
+    height: 28px;
+  }
+
+  .metricas-paragrafo{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #667085;
+     }
+
   
+
+  
+
 
 
 
