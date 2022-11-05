@@ -278,6 +278,98 @@
     color: #667085;
      }
 
+   /* aqui todo estilo vagas*/
+
+   .vagas{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    padding: 96px 0px;
+    gap: 64px;
+    width: 1440px;
+    height: 1798px;
+    background: #ffffff;
+    flex: none;
+    order: 3;
+    align-self: stretch;
+    flex-grow: 0;
+   }
+
+   .talentos{
+    width: 1280px;
+    height: 602px;
+    top: 96px;
+    left: 80px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+   }
+  .talentos__imagem{
+    height: 400px;
+    width: 1216px;
+    left: 112px;
+    top: 298px;
+    border-radius: 0px;
+
+  }
+  .talentos-titulo{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    line-height: 20px;
+    color: #8E2424;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    top: 100px;
+    margin-left: 625px;
+    
+  }
+  .talentos-sbtitulo{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #101828;
+    margin-left:600px;
+    top: 140px;
+   
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+
+  .talentos-paragrafo{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    margin-left: 560px;
+    text-align: center;
+    color: #667085;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+
+  .imagem-container{
+    padding: 30px;
+    align-items: center;
+    margin-left: 330px;
+    width: 1216px;
+    top: 298px;
+    
+    
+  }
+
   
 
   
